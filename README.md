@@ -1,2 +1,2 @@
 # QLTV
-qltv môn thực hành nhốm
+qltv môn thực hành nhóm
