@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chuc_nang.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Chuc_nang.Designer.cs">
-      <DependentUpon>Chuc_nang.cs</DependentUpon>
-    </Compile>
     <Compile Include="Dang_ki.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,9 +102,6 @@
     <Compile Include="Xoa_sach.Designer.cs">
       <DependentUpon>Xoa_sach.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Chuc_nang.resx">
-      <DependentUpon>Chuc_nang.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Dang_ki.resx">
       <DependentUpon>Dang_ki.cs</DependentUpon>
     </EmbeddedResource>
