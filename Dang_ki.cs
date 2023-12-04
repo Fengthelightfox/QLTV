@@ -19,7 +19,8 @@ namespace Quan_ly_thu_vien
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-IP1RMDOK;Initial Catalog=Quan_ly_thu_vien;Integrated Security=True");
+            string connectionString = Connection.CnnString;
+            SqlConnection con = new SqlConnection(connectionString);
             string email;
             try
             {

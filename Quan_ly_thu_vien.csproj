@@ -46,6 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chuc_nang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuc_nang.Designer.cs">
+      <DependentUpon>Chuc_nang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
     <Compile Include="Dang_ki.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +109,9 @@
     <Compile Include="Xoa_sach.Designer.cs">
       <DependentUpon>Xoa_sach.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Chuc_nang.resx">
+      <DependentUpon>Chuc_nang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dang_ki.resx">
       <DependentUpon>Dang_ki.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Xoa_sach.resx">
       <DependentUpon>Xoa_sach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sua_sach.resx">
+      <DependentUpon>Sua_sach.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

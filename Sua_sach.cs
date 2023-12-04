@@ -26,7 +26,8 @@ namespace Quan_ly_thu_vien
             string tt = tb_TT.Text.Trim();
             string mt = tb_MT.Text.Trim();
 
-            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-IP1RMDOK;Initial Catalog=Quan_ly_thu_vien;Integrated Security=True");
+            string connectionString = Connection.CnnString;
+            SqlConnection conn = new SqlConnection(connectionString);
             try
             {
                 conn.Open();

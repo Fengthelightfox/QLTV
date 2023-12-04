@@ -17,15 +17,15 @@ namespace Quan_ly_thu_vien
         {
             InitializeComponent();
         }
-        string connect = @"Data Source=LAPTOP-IP1RMDOK;Initial Catalog=Quan_ly_thu_vien;Integrated Security=True";
+        string connectionString = Connection.CnnString;
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(connect);
+            SqlConnection conn = new SqlConnection(connectionString);
             try
             {
                 conn.Open();
-                SqlCommand cmd = new SqlCommand("select * from Thong_tin_doc_gia where Ten_tai_khoan = @dn", conn);
+                SqlCommand cmd = new SqlCommand("select * from TK_QL where Ten_tai_khoan = @dn", conn);
                 cmd.Parameters.AddWithValue("@dn", textBox1.Text.Trim());
                 SqlDataReader rd = cmd.ExecuteReader();
                 while (rd.Read())

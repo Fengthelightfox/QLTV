@@ -20,7 +20,8 @@ namespace Quan_ly_thu_vien
 
         private void searchbtn_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-IP1RMDOK;Initial Catalog=Quan_ly_thu_vien;Integrated Security=True");
+            string connectionString = Connection.CnnString;
+            SqlConnection conn = new SqlConnection(connectionString);
             try
             {
                 conn.Open();

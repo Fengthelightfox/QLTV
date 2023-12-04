@@ -20,8 +20,9 @@ namespace Quan_ly_thu_vien
         private void btnXoa_Click(object sender, EventArgs e)
         {
             string ms = tb_MS.Text.Trim();
+            string connectionString = Connection.CnnString;
 
-            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-IP1RMDOK;Initial Catalog=Quan_ly_thu_vien;Integrated Security=True");
+            SqlConnection conn = new SqlConnection(connectionString);
             try
             {
                 conn.Open();

@@ -17,11 +17,11 @@ namespace Quan_ly_thu_vien
         {
             InitializeComponent();
         }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
-            string connectionString = @"Data Source=LAPTOP-IP1RMDOK;Initial Catalog=Quan_ly_thu_vien;Integrated Security=True";
-            SqlConnection connection = new SqlConnection(connectionString); 
+            string connectionString = Connection.CnnString;
+            SqlConnection connection = new SqlConnection(connectionString);
             try
             {
                 connection.Open();

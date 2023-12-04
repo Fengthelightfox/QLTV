@@ -20,7 +20,7 @@ namespace Quan_ly_thu_vien
 
         private void Thong_ke_Load(object sender, EventArgs e)
         {
-            string connectionString = @"Data Source=LAPTOP-IP1RMDOK;Initial Catalog=Quan_ly_thu_vien;Integrated Security=True";
+            string connectionString = Connection.CnnString;
             SqlConnection connection = new SqlConnection(connectionString);
             try
             {

@@ -16,3 +16,5 @@ C:\Users\acer\source\repos\Fengthelightfox\QLTV\bin\Debug\Quan_ly_thu_vien.exe
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\bin\Debug\Quan_ly_thu_vien.pdb
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.exe
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.pdb
+C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Sua_sach.resources
+C:\Users\acer\Source\Repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Chuc_nang.resources
