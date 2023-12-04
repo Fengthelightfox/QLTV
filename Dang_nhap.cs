@@ -55,7 +55,7 @@ namespace Quan_ly_thu_vien
                 }
                 if(radioButton2.Checked)
                 {
-                    SqlCommand cmd2 = new SqlCommand("select * from  Thong_tin_doc_gia where Ten_tai_khoan=@dn, Mat_khau=@mk ",conn);
+                    SqlCommand cmd2 = new SqlCommand("select * from  Thong_tin_doc_gia where Ten_tai_khoan=@dn and Mat_khau=@mk ",conn);
                     cmd2.Parameters.AddWithValue("@dn", textBox1.Text.Trim());
                     cmd2.Parameters.AddWithValue("@mk", textBox2.Text.Trim());
                     SqlDataReader rd = cmd2.ExecuteReader();
