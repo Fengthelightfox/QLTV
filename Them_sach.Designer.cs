@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnBack = new System.Windows.Forms.Button();
             this.tb_MS = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,21 +45,10 @@
             this.tb_TGNK = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // btnBack
-            // 
-            this.btnBack.Location = new System.Drawing.Point(10, 11);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(56, 19);
-            this.btnBack.TabIndex = 0;
-            this.btnBack.Text = "Trở về";
-            this.btnBack.UseVisualStyleBackColor = true;
-            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            // 
             // tb_MS
             // 
             this.tb_MS.Location = new System.Drawing.Point(163, 46);
-            this.tb_MS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_MS.Margin = new System.Windows.Forms.Padding(2);
             this.tb_MS.Name = "tb_MS";
             this.tb_MS.Size = new System.Drawing.Size(163, 20);
             this.tb_MS.TabIndex = 1;
@@ -98,7 +86,7 @@
             // tb_TS
             // 
             this.tb_TS.Location = new System.Drawing.Point(163, 78);
-            this.tb_TS.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_TS.Margin = new System.Windows.Forms.Padding(2);
             this.tb_TS.Name = "tb_TS";
             this.tb_TS.Size = new System.Drawing.Size(163, 20);
             this.tb_TS.TabIndex = 5;
@@ -106,7 +94,7 @@
             // tb_TL
             // 
             this.tb_TL.Location = new System.Drawing.Point(163, 110);
-            this.tb_TL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_TL.Margin = new System.Windows.Forms.Padding(2);
             this.tb_TL.Name = "tb_TL";
             this.tb_TL.Size = new System.Drawing.Size(163, 20);
             this.tb_TL.TabIndex = 6;
@@ -114,7 +102,7 @@
             // tb_SL
             // 
             this.tb_SL.Location = new System.Drawing.Point(163, 150);
-            this.tb_SL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_SL.Margin = new System.Windows.Forms.Padding(2);
             this.tb_SL.Name = "tb_SL";
             this.tb_SL.Size = new System.Drawing.Size(163, 20);
             this.tb_SL.TabIndex = 7;
@@ -142,7 +130,7 @@
             // tb_TT
             // 
             this.tb_TT.Location = new System.Drawing.Point(163, 188);
-            this.tb_TT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_TT.Margin = new System.Windows.Forms.Padding(2);
             this.tb_TT.Name = "tb_TT";
             this.tb_TT.Size = new System.Drawing.Size(163, 20);
             this.tb_TT.TabIndex = 10;
@@ -170,7 +158,7 @@
             // tb_MT
             // 
             this.tb_MT.Location = new System.Drawing.Point(163, 265);
-            this.tb_MT.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_MT.Margin = new System.Windows.Forms.Padding(2);
             this.tb_MT.Name = "tb_MT";
             this.tb_MT.Size = new System.Drawing.Size(163, 20);
             this.tb_MT.TabIndex = 14;
@@ -178,7 +166,7 @@
             // btnThem
             // 
             this.btnThem.Location = new System.Drawing.Point(139, 308);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(2);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(56, 19);
             this.btnThem.TabIndex = 15;
@@ -189,7 +177,7 @@
             // tb_TGNK
             // 
             this.tb_TGNK.Location = new System.Drawing.Point(163, 229);
-            this.tb_TGNK.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tb_TGNK.Margin = new System.Windows.Forms.Padding(2);
             this.tb_TGNK.Name = "tb_TGNK";
             this.tb_TGNK.Size = new System.Drawing.Size(163, 20);
             this.tb_TGNK.TabIndex = 16;
@@ -214,8 +202,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tb_MS);
-            this.Controls.Add(this.btnBack);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Them_sach";
             this.Text = "Thêm sách";
             this.ResumeLayout(false);
@@ -224,8 +211,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.TextBox tb_MS;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

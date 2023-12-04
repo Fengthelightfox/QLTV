@@ -45,8 +45,7 @@ namespace Quan_ly_thu_vien
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Chuc_nang cn = new Chuc_nang();
+            Dieu_huong cn = new Dieu_huong();
             cn.ShowDialog();
         }
 

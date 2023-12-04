@@ -37,7 +37,6 @@
             this.tb_maDG = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.btnBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -114,22 +113,11 @@
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker2.TabIndex = 8;
             // 
-            // btnBack
-            // 
-            this.btnBack.Location = new System.Drawing.Point(11, 11);
-            this.btnBack.Margin = new System.Windows.Forms.Padding(2);
-            this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(56, 19);
-            this.btnBack.TabIndex = 9;
-            this.btnBack.Text = "Trở về";
-            this.btnBack.UseVisualStyleBackColor = true;
-            // 
             // Muon_sach
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(457, 328);
-            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.tb_maDG);
@@ -157,6 +145,5 @@
         private System.Windows.Forms.TextBox tb_maDG;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Button btnBack;
     }
 }
