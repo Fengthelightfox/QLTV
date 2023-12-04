@@ -16,7 +16,7 @@ namespace Quan_ly_thu_vien
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Dang_nhap());
+            Application.Run(new Dieu_huong());
         }
     }
 }

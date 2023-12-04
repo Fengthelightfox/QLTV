@@ -1,6 +1,5 @@
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.csproj.AssemblyReference.cache
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.csproj.SuggestedBindingRedirects.cache
-C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Dang_ki.resources
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Dang_nhap.resources
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Muon_sach.resources
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Properties.Resources.resources
@@ -17,4 +16,6 @@ C:\Users\acer\source\repos\Fengthelightfox\QLTV\bin\Debug\Quan_ly_thu_vien.pdb
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.exe
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.pdb
 C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Sua_sach.resources
-C:\Users\acer\Source\Repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Chuc_nang.resources
+C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Dieu_huong.resources
+C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Dang_ki_doc_gia.resources
+C:\Users\acer\source\repos\Fengthelightfox\QLTV\obj\Debug\Quan_ly_thu_vien.Thong_tin_doc_gia.resources

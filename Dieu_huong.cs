@@ -20,7 +20,7 @@ namespace Quan_ly_thu_vien
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Thong_tin_nguoi_dung ttnd = new Thong_tin_nguoi_dung();
+            Thong_tin_doc_gia ttnd = new Thong_tin_doc_gia();
             ttnd.ShowDialog();
         }
 
@@ -33,21 +33,22 @@ namespace Quan_ly_thu_vien
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (comboBox1.SelectedIndex==1)
+            if (comboBox1.SelectedIndex == 0)
             {
                Them_sach ts = new Them_sach();
                ts.ShowDialog();
             }
-            if(comboBox1.SelectedIndex==2)
+            if(comboBox1.SelectedIndex==1)
             {
                 Sua_sach ss= new Sua_sach();
                 ss.ShowDialog();
             }
-            if (comboBox1.SelectedIndex==3)
+            if (comboBox1.SelectedIndex==2)
             {
                 Xoa_sach xs =new Xoa_sach();
                 xs.ShowDialog();
             }
         }
+
     }
 }
