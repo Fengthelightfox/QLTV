@@ -41,10 +41,5 @@ namespace Quan_ly_thu_vien
                 MessageBox.Show(ex.Message);
             }
         }
-
-        private void btnBack_Click(object sender, EventArgs e)
-        {
-            
-        }
     }
 }

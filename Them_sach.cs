@@ -55,10 +55,5 @@ namespace Quan_ly_thu_vien
             }
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
-        {
-            
-        }
-
     }
 }

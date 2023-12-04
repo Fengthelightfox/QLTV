@@ -80,11 +80,5 @@ namespace Quan_ly_thu_vien
             }
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            this.Hide();
-            Dang_ki_doc_gia dk = new Dang_ki_doc_gia();
-            dk.ShowDialog();
-        }
     }
 }
