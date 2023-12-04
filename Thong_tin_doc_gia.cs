@@ -38,7 +38,7 @@ namespace Quan_ly_thu_vien
                     if (row[i] == DBNull.Value)
                     {
                         // Nếu giá trị NULL, gán giá trị mặc định hoặc xử lý khác tùy ý
-                        row[i] = "Giá trị NULL";
+                        row[i] = "";
                     }
                 }
             }
